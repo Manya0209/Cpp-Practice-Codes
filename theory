@@ -1,0 +1,23 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    // *********Reference variables**********//
+  /*  float x = 45;
+    float & y = x;
+    cout<<x;
+    cout<<y; */
+
+
+    //**********Typecasting**********//
+    int a= 45;
+    int b= 45.6;
+
+    cout<<"the value of a is "<<(float)a;
+     cout<<"the value of b is "<<(int)b;
+      cout<<"the value of b is "<<int(b);
+    
+
+    return 0;
+}

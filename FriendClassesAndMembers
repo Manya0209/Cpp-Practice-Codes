@@ -1,0 +1,36 @@
+#include<iostream>
+
+using namespace std;
+//Forward Declaration
+class complex;
+
+class calculator{
+    public:
+    int add(int a, int b){
+    return (a+b);
+    }
+    int sumrealcomp(complex, complex);
+}
+    class complex{
+    int a;
+    int b;
+    public:
+    void setnumber(int n1, int n2){
+       a= n1;
+       b= n2;
+    }
+};
+
+int calculator :: sumrealcomplex(complex o1, complex o2){
+    return (o1.a + o2.b);
+ }
+
+ int main(){
+    complex o1, o2;
+    o1.setnumber(1,4);
+    o2.setnumber(2,5);
+    calculator calc;
+    int res= calc.sumrealcomplex;
+    cout<<"the sum of complex numbers is "<<res<<endl;
+    return 0;
+ }
